@@ -1,0 +1,19 @@
+{
+    "name": "phpcraft/upload",
+    "type": "library",
+    "description": "upload adapter",
+    "license": "MIT",
+    "authors": [
+    {
+            "name": "vuk"
+    }
+    ],
+    "require": {
+        "siriusphp/upload": "^2.1"
+    },
+    "autoload": {
+        "psr-4" : {
+            "PHPCraft\\Upload\\" : "src/"
+        }
+    }
+}
