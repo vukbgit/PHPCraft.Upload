@@ -88,6 +88,7 @@ class UploadSiriusPHPUploadAdapter implements UploadInterface
     public function getUploadedFileInfo()
     {
         return [
+            'tmpName' => $_FILES[$this->field]['tmp_name'],
             'name' => $this->result->name
         ];
     }
