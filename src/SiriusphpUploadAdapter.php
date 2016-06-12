@@ -9,7 +9,7 @@ use Sirius\Upload\Handler;
  *
  * @author vuk <info@vuk.bg.it>
  */
-class UploadSiriusPHPUploadAdapter implements UploadInterface
+class SiriusPHPUploadAdapter implements UploadInterface
 {
     protected $upload;
     protected $field;
